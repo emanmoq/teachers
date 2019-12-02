@@ -427,7 +427,13 @@ color:white;
     color:#43B043;
 }
 .PremiumSlider .adsItem{
-    height:300px;
+    height:200px;
+}
+.AdvertisersSlider  {
+    margin-bottom:50px;
+}
+.AdvertisersSlider .adsItem {
+    height:200px;
 }
 @media(max-width:767px){
     .TitleSection h1{
