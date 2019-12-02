@@ -59,6 +59,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     background-color: #43B043;
 }
+button.navbar-toggler {
+    position: relative;
+    background-color: rgba(67, 176, 67, 0.5);
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 0;
+}
+    button.navbar-toggler:after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 3px;
+        background: #fff;
+        top: 12px;
+        left: 0;
+        right: 0px;
+        margin: auto;
+        box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+    }
 .navbar-brand img{
     height: 40px;
 }
@@ -97,8 +118,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom:40px;
 }
 section{
-    padding-top:80px;
     padding-bottom:40px;
+    padding-top:80px;
 }
 .heroImg{
     width:100%;
@@ -407,4 +428,42 @@ color:white;
 }
 .PremiumSlider .adsItem{
     height:300px;
+}
+@media(max-width:767px){
+    .TitleSection h1{
+        font-size:30px;
+    }
+    .heroTitle h2{
+        font-size:20px;
+    }
+    .title h2{
+    font-size:20px;
+    }
+    section{
+        padding-top:40px;
+    }
+    .sliderCont h1{
+        font-size:20px;
+    }
+    .SliderCont{
+        position: static;
+    }
+    .adsTitle{
+        font-size:20px;
+    }
+    .subscribeSec h2{
+        font-size:20px;
+    }
+    .postBtn{
+        margin-bottom:0;
+    }
+    .PremiumSec, .AdvertisersSec {
+        padding:20px;
+    }
+    .PremiumSlider{
+        margin-bottom:20px;
+    }
+    .PremiumSlider .adsItem{
+height:150px;
+    }
 }
