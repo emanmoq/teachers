@@ -105,7 +105,8 @@
       </div>
     </div>
   </section>
-  <section class="bg-faded SliderSec">
+
+  <section class="bg-grayColor SliderSec">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-md-6">
@@ -130,30 +131,30 @@
                 </div>
                 <div class="col-md-3">
                   <div class="FormCont">
-                    <form action="">
+                    <form action="" class="clearfix">
                       <h3 class="formTitle"> Search Ads</h3>
                       <div class="form-group">
                         <i class="fa fa-search"></i>
                         <input type="text" class="form-control" placeholder="Keywords">
                       </div>
-                      <div class="form-group">
-                          <i class="fa fa-map-marker"></i>
-                          <select name="location" title="Location">
-                            <option class="bs-title-option" value="">Location</option>
-                            <option value="ACT">Australian Capital Territory</option>
-                            <option value="NSW">New South Wales</option>
-                            <option value="Northern-Territory">Northern Territory</option>
-                            <option value="Queensland">Queensland</option>
-                            <option value="skype">Skype</option>
-                            <option value="SA">South Australia</option>
-                            <option value="TAS">Tasmania</option>
-                            <option value="VIC">Victoria</option>
-                            <option value="WA">Western Australia</option>
-                          </select>
+                      <div class="form-group clearfix">
+                        <i class="fa fa-map-marker"></i>
+                        <select name="location" title="Location" class="form-control">
+                          <option class="bs-title-option" value="">Location</option>
+                          <option value="ACT">Australian Capital Territory</option>
+                          <option value="NSW">New South Wales</option>
+                          <option value="Northern-Territory">Northern Territory</option>
+                          <option value="Queensland">Queensland</option>
+                          <option value="skype">Skype</option>
+                          <option value="SA">South Australia</option>
+                          <option value="TAS">Tasmania</option>
+                          <option value="VIC">Victoria</option>
+                          <option value="WA">Western Australia</option>
+                        </select>
                       </div>
-                      <div class="form-group">
+                      <div class="form-group clearfix">
                         <i class="fa fa-folder"></i>
-                        <select  name="category" title="Category">
+                        <select name="category" title="Category" class="form-control">
                           <option class="bs-title-option" value="">Category</option>
                           <option value="class-books">Books/Music</option>
                           <option value="class-gadgets">Electronic / Gadgets</option>
@@ -162,6 +163,7 @@
                           <option value="software-class">Software CDs</option>
                         </select>
                       </div>
+                      <input type="submit" class="btn btn-dark searchbtn btn-block" value="Search">
                     </form>
 
                   </div>
@@ -170,10 +172,11 @@
             </div>
           </div>
           <div class="ClassifiedSlider owl-carousel">
-            <div class="SliderItem " style="background-image:url(assets/images/sliderImage.jpeg)">
+            <div class="SliderItem">
+              <img src="assets/images/sliderImage.jpeg" alt="">
             </div>
-            <div class="SliderItem" style="background-image:url('assets/images/sliderImage2.jpeg')">
-
+            <div class="SliderItem">
+              <img src="assets/images/sliderImage2.jpeg" alt="">
             </div>
           </div>
         </div>
@@ -181,6 +184,15 @@
     </div>
 
   </section>
+  <div class="bg-grayColor PremiumSec">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="adsTitle">Premium Ads</h2>
+
+        <a href="#" class="btn btn-primary postBtn">Post Ad</a>
+      </div>
+    </div>
+  </div>
 
   <script type="text/javascript" src="assets/js/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
