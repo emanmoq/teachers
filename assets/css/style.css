@@ -175,6 +175,7 @@ section{
 .SliderItem{
  
     position: relative;}
+
 .FormCont form{
     background-color: rgba(67, 176, 67, 0.5);
     padding: 30px 25px;
@@ -362,6 +363,8 @@ color: #43B043;
     background: #333;
     color: rgba(255, 255, 255, 0.5);
 }
+.footerList{
+    margin-bottom: 10px;}
 .footerList li a{
     display: block;
     position: relative;
@@ -428,6 +431,16 @@ color:white;
 }
 .PremiumSlider .adsItem{
     height:200px;
+}
+.adsItem img:hover{
+    transform:scale(1.1);
+    transition: all .5s;
+}
+.adsItem img{
+    transition: .5s;
+}
+.adsItem{
+    overflow: hidden;
 }
 .AdvertisersSlider  {
     margin-bottom:50px;
