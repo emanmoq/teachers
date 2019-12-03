@@ -429,9 +429,7 @@ color:white;
 .copyRight a{
     color:#43B043;
 }
-.PremiumSlider .adsItem{
-    height:200px;
-}
+
 .adsItem img:hover{
     transform:scale(1.1);
     transition: all .5s;
@@ -485,4 +483,9 @@ color:white;
     .PremiumSlider .adsItem{
 height:150px;
     }
+}
+@media(max-width:1023px){
+.SliderCont h1{
+    font-size:30px;
+}
 }
